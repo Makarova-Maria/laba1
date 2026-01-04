@@ -10,10 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build project
-        run: echo "Собираем проект...Э
+        run: echo "Собироем проект.."
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: Release ${{ github.ref_name}}
-          body: Автоматический релиз новой версии 
+          name: Release ${{ github.ref_name }}
+          body: Автоматический релиз новой версии
 
